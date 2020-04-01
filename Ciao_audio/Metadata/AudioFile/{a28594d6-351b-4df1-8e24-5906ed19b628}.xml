@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.01.10.00">
-    <object class="AudioFile" id="{dc508709-f005-4083-aee5-342d9002c8f3}">
+    <object class="AudioFile" id="{a28594d6-351b-4df1-8e24-5906ed19b628}">
         <property name="assetPath">
-            <value>textscroll_end.mp3</value>
+            <value>clocktower.mp3</value>
         </property>
         <property name="frequencyInKHz">
             <value>48</value>
@@ -11,7 +11,7 @@
             <value>2</value>
         </property>
         <property name="length">
-            <value>1.008</value>
+            <value>5.5199999999999996</value>
         </property>
         <relationship name="masterAssetFolder">
             <destination>{4b17e81f-7fb0-413b-b109-440fc59ef8df}</destination>
