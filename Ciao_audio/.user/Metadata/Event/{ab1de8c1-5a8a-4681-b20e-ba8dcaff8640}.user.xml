@@ -42,7 +42,6 @@
     <object class="SingleSound" id="{837f283e-4462-4fee-898c-3b11d118426d}"/>
     <object class="SingleSound" id="{3a077f0b-8a9d-4260-bcdc-3ec8430792e3}"/>
     <object class="SingleSound" id="{6030ddbe-a283-41e5-bd50-aaa4f6781c63}"/>
-    <object class="SingleSound" id="{975b7322-707a-48b5-b67a-ffa4bdfe0129}"/>
     <object class="MixerBusEffectChain" id="{4a521f52-bf5b-4734-88f8-c75faa3519fd}"/>
     <object class="MixerBusPanner" id="{3b8eeec9-992c-4a3f-9c64-391036d04e39}"/>
     <object class="MixerBusFader" id="{b133930e-fad2-4b7e-9b67-7e9bea07ebfd}"/>

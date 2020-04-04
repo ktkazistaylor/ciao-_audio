@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.01.10.00">
-    <object class="AudioFile" id="{6ed6ab7b-e842-421c-96c9-0cb361cebcce}">
+    <object class="AudioFile" id="{a2f520a8-e7a8-4627-a1a6-e002c8906f3a}">
         <property name="assetPath">
-            <value>hills_bird_1.mp3</value>
+            <value>hills_bird_4.mp3</value>
         </property>
         <property name="frequencyInKHz">
             <value>48</value>
@@ -11,7 +11,7 @@
             <value>2</value>
         </property>
         <property name="length">
-            <value>2.7839999999999998</value>
+            <value>3.1680000000000001</value>
         </property>
         <relationship name="masterAssetFolder">
             <destination>{4b17e81f-7fb0-413b-b109-440fc59ef8df}</destination>
