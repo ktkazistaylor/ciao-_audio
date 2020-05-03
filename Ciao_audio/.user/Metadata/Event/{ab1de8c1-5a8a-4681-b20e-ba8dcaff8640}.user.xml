@@ -4,6 +4,9 @@
         <property name="uiMarkerTracksVisible">
             <value>false</value>
         </property>
+        <relationship name="selectables">
+            <destination>{0ae5356e-ad7c-475c-8852-12d4fc9e87f4}</destination>
+        </relationship>
         <relationship name="uiLastParameterSelection">
             <destination>{2c8371b4-5e2c-499d-b26c-bf4616a9836d}</destination>
         </relationship>

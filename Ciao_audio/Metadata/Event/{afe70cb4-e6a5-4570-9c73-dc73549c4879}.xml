@@ -93,7 +93,7 @@
             <value>0.32000000000000001</value>
         </property>
         <property name="volume">
-            <value>-8</value>
+            <value>-16</value>
         </property>
         <relationship name="modulators">
             <destination>{8cf941d8-5a08-4cd8-ac95-3c8a42346e07}</destination>
@@ -107,6 +107,9 @@
         </relationship>
     </object>
     <object class="EventMixerGroup" id="{1cf368bb-b34a-4df2-8c98-e5f095e13e77}">
+        <property name="volume">
+            <value>-2</value>
+        </property>
         <property name="name">
             <value>Cobblestone</value>
         </property>

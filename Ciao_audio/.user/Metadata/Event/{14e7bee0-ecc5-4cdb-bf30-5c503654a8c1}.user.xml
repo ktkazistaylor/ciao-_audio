@@ -4,6 +4,9 @@
         <property name="uiMaxMarkerTracksVisible">
             <value>6</value>
         </property>
+        <relationship name="selectables">
+            <destination>{3ff4bbb0-154e-443e-8a37-f5531765d09f}</destination>
+        </relationship>
         <relationship name="uiLastParameterSelection">
             <destination>{c3358742-8bef-4d54-b1ca-27d55f503191}</destination>
         </relationship>
@@ -12,13 +15,41 @@
     <object class="MixerInput" id="{10ff8e7b-52e1-411b-b928-f9ca70bcf9bf}"/>
     <object class="EventAutomatableProperties" id="{9a4e0514-b683-4e9e-a461-71547bd9aaae}"/>
     <object class="MarkerTrack" id="{97b3d83d-2cee-4fcc-bb83-e76c0b9f47f6}"/>
-    <object class="GroupTrack" id="{470ea52f-125c-4517-905a-9cfd8ad18c7a}"/>
-    <object class="GroupTrack" id="{8a8704a9-2ddb-42d2-bb28-e11c0949019d}"/>
-    <object class="GroupTrack" id="{5de7b6fd-768d-468e-8300-3478eed30190}"/>
-    <object class="GroupTrack" id="{75233c19-b490-46a4-9a6f-c105ad7af2c4}"/>
-    <object class="GroupTrack" id="{7e66ea58-27e5-4a21-9d5b-11e5ea60a7d0}"/>
-    <object class="GroupTrack" id="{536d3187-31de-4374-91c5-2c09b10ab372}"/>
-    <object class="GroupTrack" id="{3ff4bbb0-154e-443e-8a37-f5531765d09f}"/>
+    <object class="GroupTrack" id="{470ea52f-125c-4517-905a-9cfd8ad18c7a}">
+        <property name="uiAutomationTracksVisible">
+            <value>false</value>
+        </property>
+    </object>
+    <object class="GroupTrack" id="{8a8704a9-2ddb-42d2-bb28-e11c0949019d}">
+        <property name="uiAutomationTracksVisible">
+            <value>false</value>
+        </property>
+    </object>
+    <object class="GroupTrack" id="{5de7b6fd-768d-468e-8300-3478eed30190}">
+        <property name="uiAutomationTracksVisible">
+            <value>false</value>
+        </property>
+    </object>
+    <object class="GroupTrack" id="{75233c19-b490-46a4-9a6f-c105ad7af2c4}">
+        <property name="uiAutomationTracksVisible">
+            <value>false</value>
+        </property>
+    </object>
+    <object class="GroupTrack" id="{7e66ea58-27e5-4a21-9d5b-11e5ea60a7d0}">
+        <property name="uiAutomationTracksVisible">
+            <value>false</value>
+        </property>
+    </object>
+    <object class="GroupTrack" id="{536d3187-31de-4374-91c5-2c09b10ab372}">
+        <property name="uiAutomationTracksVisible">
+            <value>false</value>
+        </property>
+    </object>
+    <object class="GroupTrack" id="{3ff4bbb0-154e-443e-8a37-f5531765d09f}">
+        <property name="uiAutomationTracksVisible">
+            <value>false</value>
+        </property>
+    </object>
     <object class="Timeline" id="{c3358742-8bef-4d54-b1ca-27d55f503191}">
         <property name="uiLastRulerScaleRatio">
             <value>0.22948512159474169</value>
@@ -38,10 +69,16 @@
         <property name="uiLastRulerScaleRatio">
             <value>0.00094339622641509435</value>
         </property>
+        <property name="uiLastHorizontalScrollBarValue">
+            <value>56</value>
+        </property>
     </object>
     <object class="ParameterProxy" id="{1f38c892-8048-4666-a738-152fe71fec9a}">
         <property name="uiLastRulerScaleRatio">
             <value>0.00094339622641509435</value>
+        </property>
+        <property name="uiLastHorizontalScrollBarValue">
+            <value>69</value>
         </property>
     </object>
     <object class="ParameterProxy" id="{ae8f395d-d267-41ef-a280-859eb4037f4c}">
@@ -52,6 +89,9 @@
     <object class="ParameterProxy" id="{49f1d2bb-d508-432d-811b-480927508608}">
         <property name="uiLastRulerScaleRatio">
             <value>0.00094339622641509435</value>
+        </property>
+        <property name="uiLastHorizontalScrollBarValue">
+            <value>81</value>
         </property>
     </object>
     <object class="ParameterProxy" id="{64ed1938-ccd8-41d0-87c0-7732c74c5fcb}">
@@ -79,11 +119,7 @@
         </property>
     </object>
     <object class="SingleSound" id="{3face676-28ef-424c-b5eb-1bb7c8623538}"/>
-    <object class="EventMixerGroup" id="{46153d05-567c-41e4-817d-1864621d3858}">
-        <property name="uiModulationDrawerVisible">
-            <value>false</value>
-        </property>
-    </object>
+    <object class="EventMixerGroup" id="{46153d05-567c-41e4-817d-1864621d3858}"/>
     <object class="AutomationTrack" id="{b6a83f74-bb2a-4fb6-b353-fd2427ddca9a}"/>
     <object class="SingleSound" id="{ad8ff1d7-72a8-4d45-ba3f-bd4edc7e9195}"/>
     <object class="EventMixerGroup" id="{a39748ce-d03a-42d4-82de-bcf83e52a0b4}"/>
