@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.01.10.00">
-    <object class="ParameterPreset" id="{b42615d3-402c-4d62-b0b8-3f4fd4e03e4b}">
-        <property name="name">
-            <value>Texscroll Start</value>
-        </property>
-        <relationship name="folder">
-            <destination>{2e66bd8c-7d0c-436c-b9ac-60ddad21733b}</destination>
-        </relationship>
-        <relationship name="parameter">
-            <destination>{15410864-2522-4c3b-bd33-d575266dcf9d}</destination>
-        </relationship>
-    </object>
-    <object class="GameParameter" id="{15410864-2522-4c3b-bd33-d575266dcf9d}">
-        <property name="initialValue">
-            <value>0</value>
-        </property>
-    </object>
+<objects serializationModel="Studio.02.00.00">
+	<object class="ParameterPreset" id="{b42615d3-402c-4d62-b0b8-3f4fd4e03e4b}">
+		<property name="name">
+			<value>Texscroll Start</value>
+		</property>
+		<relationship name="folder">
+			<destination>{2e66bd8c-7d0c-436c-b9ac-60ddad21733b}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{15410864-2522-4c3b-bd33-d575266dcf9d}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{15410864-2522-4c3b-bd33-d575266dcf9d}">
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+	</object>
 </objects>

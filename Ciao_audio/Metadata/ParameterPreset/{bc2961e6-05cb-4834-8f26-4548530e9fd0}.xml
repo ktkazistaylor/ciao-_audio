@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.01.10.00">
-    <object class="ParameterPreset" id="{bc2961e6-05cb-4834-8f26-4548530e9fd0}">
-        <property name="name">
-            <value>PuzzleEnd</value>
-        </property>
-        <relationship name="folder">
-            <destination>{2e66bd8c-7d0c-436c-b9ac-60ddad21733b}</destination>
-        </relationship>
-        <relationship name="parameter">
-            <destination>{bbc565f0-8956-43c5-a096-efad6931e5b4}</destination>
-        </relationship>
-    </object>
-    <object class="GameParameter" id="{bbc565f0-8956-43c5-a096-efad6931e5b4}">
-        <property name="initialValue">
-            <value>0</value>
-        </property>
-        <property name="seekSpeed">
-            <value>5</value>
-        </property>
-    </object>
+<objects serializationModel="Studio.02.00.00">
+	<object class="ParameterPreset" id="{bc2961e6-05cb-4834-8f26-4548530e9fd0}">
+		<property name="name">
+			<value>PuzzleEnd</value>
+		</property>
+		<relationship name="folder">
+			<destination>{2e66bd8c-7d0c-436c-b9ac-60ddad21733b}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{bbc565f0-8956-43c5-a096-efad6931e5b4}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{bbc565f0-8956-43c5-a096-efad6931e5b4}">
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+		<property name="seekSpeed">
+			<value>5</value>
+		</property>
+	</object>
 </objects>

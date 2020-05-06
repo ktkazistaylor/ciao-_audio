@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.01.10.00">
-    <object class="ParameterPreset" id="{c748b5bc-158f-41c0-81a1-c797945c86db}">
-        <property name="name">
-            <value>Layer 6</value>
-        </property>
-        <relationship name="folder">
-            <destination>{2e66bd8c-7d0c-436c-b9ac-60ddad21733b}</destination>
-        </relationship>
-        <relationship name="parameter">
-            <destination>{b92fc057-6d81-478b-aec1-123c59ab2af1}</destination>
-        </relationship>
-    </object>
-    <object class="GameParameter" id="{b92fc057-6d81-478b-aec1-123c59ab2af1}">
-        <property name="initialValue">
-            <value>0</value>
-        </property>
-        <property name="seekSpeed">
-            <value>2.4000000953674316</value>
-        </property>
-    </object>
+<objects serializationModel="Studio.02.00.00">
+	<object class="ParameterPreset" id="{c748b5bc-158f-41c0-81a1-c797945c86db}">
+		<property name="name">
+			<value>Layer 6</value>
+		</property>
+		<relationship name="folder">
+			<destination>{2e66bd8c-7d0c-436c-b9ac-60ddad21733b}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{b92fc057-6d81-478b-aec1-123c59ab2af1}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{b92fc057-6d81-478b-aec1-123c59ab2af1}">
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+		<property name="seekSpeed">
+			<value>2.4000000953674316</value>
+		</property>
+	</object>
 </objects>
