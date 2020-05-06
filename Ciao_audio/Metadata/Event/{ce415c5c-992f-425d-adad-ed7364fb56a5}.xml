@@ -5,7 +5,7 @@
             <value>Cafe</value>
         </property>
         <property name="outputFormat">
-            <value>2</value>
+            <value>1</value>
         </property>
         <relationship name="folder">
             <destination>{a023f388-5879-4e04-899c-05de0b1221b1}</destination>
@@ -136,7 +136,6 @@
     <object class="MixerBusEffectChain" id="{4fce266d-6e52-4260-ab80-3b7ed8223fda}">
         <relationship name="effects">
             <destination>{a6953857-deac-4e17-857f-40aac7b3f458}</destination>
-            <destination>{a8ce8862-b4e8-4491-a12d-4ed9dc06c3cc}</destination>
         </relationship>
     </object>
     <object class="MixerBusPanner" id="{c9e04647-9a85-4d2d-b3b3-51bbc3d37fd7}"/>
@@ -148,10 +147,5 @@
     </object>
     <object class="MixerBusPanner" id="{8b6b9580-e69e-4e6e-9315-87ecf35ef0dd}"/>
     <object class="MixerBusFader" id="{a6953857-deac-4e17-857f-40aac7b3f458}"/>
-    <object class="SpatialiserEffect" id="{a8ce8862-b4e8-4491-a12d-4ed9dc06c3cc}">
-        <property name="maximumDistance">
-            <value>40</value>
-        </property>
-    </object>
     <object class="MixerBusFader" id="{47859c6e-3b8b-4db9-8fbf-3a0ac4525a7c}"/>
 </objects>

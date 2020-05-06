@@ -5,31 +5,19 @@
             <value>6</value>
         </property>
         <relationship name="selectables">
-            <destination>{3ff4bbb0-154e-443e-8a37-f5531765d09f}</destination>
+            <destination>{f9cae305-f60f-4e17-9492-d86842ddf879}</destination>
         </relationship>
         <relationship name="uiLastParameterSelection">
-            <destination>{c3358742-8bef-4d54-b1ca-27d55f503191}</destination>
+            <destination>{f6f8581b-aa6c-40ff-b01d-bec8073e23d5}</destination>
         </relationship>
     </object>
     <object class="MasterTrack" id="{c2d371b1-aafc-413d-8d19-da108026036a}"/>
     <object class="MixerInput" id="{10ff8e7b-52e1-411b-b928-f9ca70bcf9bf}"/>
     <object class="EventAutomatableProperties" id="{9a4e0514-b683-4e9e-a461-71547bd9aaae}"/>
     <object class="MarkerTrack" id="{97b3d83d-2cee-4fcc-bb83-e76c0b9f47f6}"/>
-    <object class="GroupTrack" id="{470ea52f-125c-4517-905a-9cfd8ad18c7a}">
-        <property name="uiAutomationTracksVisible">
-            <value>false</value>
-        </property>
-    </object>
-    <object class="GroupTrack" id="{8a8704a9-2ddb-42d2-bb28-e11c0949019d}">
-        <property name="uiAutomationTracksVisible">
-            <value>false</value>
-        </property>
-    </object>
-    <object class="GroupTrack" id="{5de7b6fd-768d-468e-8300-3478eed30190}">
-        <property name="uiAutomationTracksVisible">
-            <value>false</value>
-        </property>
-    </object>
+    <object class="GroupTrack" id="{470ea52f-125c-4517-905a-9cfd8ad18c7a}"/>
+    <object class="GroupTrack" id="{8a8704a9-2ddb-42d2-bb28-e11c0949019d}"/>
+    <object class="GroupTrack" id="{5de7b6fd-768d-468e-8300-3478eed30190}"/>
     <object class="GroupTrack" id="{75233c19-b490-46a4-9a6f-c105ad7af2c4}">
         <property name="uiAutomationTracksVisible">
             <value>false</value>
@@ -58,6 +46,9 @@
     <object class="ParameterProxy" id="{f6f8581b-aa6c-40ff-b01d-bec8073e23d5}">
         <property name="uiLastRulerScaleRatio">
             <value>0.00094339622641509435</value>
+        </property>
+        <property name="uiLastHorizontalScrollBarValue">
+            <value>130</value>
         </property>
     </object>
     <object class="ParameterProxy" id="{10a1bfac-3f8e-4361-9ac2-113c26c01d2d}">
