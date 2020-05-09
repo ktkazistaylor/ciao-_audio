@@ -207,14 +207,27 @@
 			<destination>{3ae0d055-a5e0-465c-a0f4-12de5da9bdea}</destination>
 		</relationship>
 	</object>
-	<object class="MixerBusPanner" id="{3b8eeec9-992c-4a3f-9c64-391036d04e39}" />
+	<object class="MixerBusPanner" id="{3b8eeec9-992c-4a3f-9c64-391036d04e39}">
+		<relationship name="modulators">
+			<destination>{eefb1b12-f04e-4576-ad2d-fcce2a2bbf1d}</destination>
+		</relationship>
+	</object>
 	<object class="MixerBusFader" id="{b133930e-fad2-4b7e-9b67-7e9bea07ebfd}" />
 	<object class="SFXReverbEffect" id="{741e441d-7b21-4d3a-95b8-ce4a8560a3b5}">
 		<property name="decayTime">
-			<value>4700</value>
+			<value>4100</value>
 		</property>
 		<property name="HFDecayRatio">
 			<value>63</value>
+		</property>
+		<property name="diffusion">
+			<value>85.5</value>
+		</property>
+		<property name="wetLevel">
+			<value>-2</value>
+		</property>
+		<property name="dryLevel">
+			<value>-11</value>
 		</property>
 	</object>
 	<object class="AutomationCurve" id="{08b9c789-0041-4581-baa1-4d4f4daf7542}">
@@ -227,12 +240,20 @@
 		</relationship>
 	</object>
 	<object class="MixerBusFader" id="{3ae0d055-a5e0-465c-a0f4-12de5da9bdea}" />
+	<object class="RandomizerModulator" id="{eefb1b12-f04e-4576-ad2d-fcce2a2bbf1d}">
+		<property name="nameOfPropertyBeingModulated">
+			<value>stereoPan</value>
+		</property>
+		<property name="amount">
+			<value>100</value>
+		</property>
+	</object>
 	<object class="AutomationPoint" id="{42678144-f77a-42ef-a405-9e0a6e572a2e}">
 		<property name="position">
 			<value>0.96641477749790095</value>
 		</property>
 		<property name="value">
-			<value>-21.7142868</value>
+			<value>-28.7142887</value>
 		</property>
 	</object>
 	<object class="AutomationPoint" id="{ee3c302f-2ef7-40c5-9f6a-7ecc715bca55}">
@@ -240,7 +261,7 @@
 			<value>0.0050377833753148613</value>
 		</property>
 		<property name="value">
-			<value>-40</value>
+			<value>-53.0000038</value>
 		</property>
 	</object>
 </objects>
