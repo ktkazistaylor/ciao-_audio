@@ -114,7 +114,7 @@
 	</object>
 	<object class="EventMixerGroup" id="{9f05d2fb-6fcd-4dc6-9e79-ab1e3184ed28}">
 		<property name="volume">
-			<value>-29</value>
+			<value>-34</value>
 		</property>
 		<property name="name">
 			<value>Wind/leaves</value>
@@ -142,7 +142,7 @@
 	</object>
 	<object class="EventMixerGroup" id="{6035627a-b471-4f93-83eb-55755ced887e}">
 		<property name="volume">
-			<value>-39</value>
+			<value>-41</value>
 		</property>
 		<property name="name">
 			<value>Crickets</value>
@@ -183,13 +183,21 @@
 			<destination>{b788ede9-0eb2-456f-89ad-79c7c2489320}</destination>
 		</relationship>
 	</object>
-	<object class="MixerBusPanner" id="{76c2f03b-a3e2-4019-a70d-5b275d948b1a}" />
+	<object class="MixerBusPanner" id="{76c2f03b-a3e2-4019-a70d-5b275d948b1a}">
+		<property name="stereoPan">
+			<value>-36</value>
+		</property>
+	</object>
 	<object class="MixerBusEffectChain" id="{54ca9706-ca66-41e9-ad10-32b23ee930de}">
 		<relationship name="effects">
 			<destination>{5ca0eff3-5bd9-4986-baa8-bc8b01ee15f3}</destination>
 		</relationship>
 	</object>
-	<object class="MixerBusPanner" id="{eff5674e-8536-4331-935b-7d30914fe829}" />
+	<object class="MixerBusPanner" id="{eff5674e-8536-4331-935b-7d30914fe829}">
+		<property name="stereoPan">
+			<value>28</value>
+		</property>
+	</object>
 	<object class="MixerBusFader" id="{41c08276-2da2-4eab-b2d2-d03a4516bfa2}" />
 	<object class="MixerBusFader" id="{b788ede9-0eb2-456f-89ad-79c7c2489320}" />
 	<object class="MixerBusFader" id="{5ca0eff3-5bd9-4986-baa8-bc8b01ee15f3}" />

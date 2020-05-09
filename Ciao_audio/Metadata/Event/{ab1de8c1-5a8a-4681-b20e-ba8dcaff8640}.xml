@@ -145,6 +145,7 @@
 	<object class="MixerBusEffectChain" id="{9c0ff6ac-c310-46f7-9c36-3ff4f6e486fc}">
 		<relationship name="effects">
 			<destination>{b133930e-fad2-4b7e-9b67-7e9bea07ebfd}</destination>
+			<destination>{741e441d-7b21-4d3a-95b8-ce4a8560a3b5}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{1b7a4bc0-f32e-41a7-afd3-b3c9742db23c}" />
@@ -208,6 +209,14 @@
 	</object>
 	<object class="MixerBusPanner" id="{3b8eeec9-992c-4a3f-9c64-391036d04e39}" />
 	<object class="MixerBusFader" id="{b133930e-fad2-4b7e-9b67-7e9bea07ebfd}" />
+	<object class="SFXReverbEffect" id="{741e441d-7b21-4d3a-95b8-ce4a8560a3b5}">
+		<property name="decayTime">
+			<value>4700</value>
+		</property>
+		<property name="HFDecayRatio">
+			<value>63</value>
+		</property>
+	</object>
 	<object class="AutomationCurve" id="{08b9c789-0041-4581-baa1-4d4f4daf7542}">
 		<relationship name="parameter">
 			<destination>{9a1aa5a1-6e2e-4c7d-96b6-c4ff6f3ca951}</destination>
@@ -223,7 +232,7 @@
 			<value>0.96641477749790095</value>
 		</property>
 		<property name="value">
-			<value>-17.2000008</value>
+			<value>-21.7142868</value>
 		</property>
 	</object>
 	<object class="AutomationPoint" id="{ee3c302f-2ef7-40c5-9f6a-7ecc715bca55}">
@@ -231,7 +240,7 @@
 			<value>0.0050377833753148613</value>
 		</property>
 		<property name="value">
-			<value>-32</value>
+			<value>-40</value>
 		</property>
 	</object>
 </objects>
